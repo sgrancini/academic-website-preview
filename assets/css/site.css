@@ -167,6 +167,15 @@ a:focus-visible {
 
 .interests strong { color: #526b7a; }
 
+.intro .research-focus {
+  max-width: 760px;
+  margin: 18px 0 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  color: #526b7a;
+  font: 15px/1.55 var(--sans);
+}
+
 .paper-links {
   display: flex;
   flex-wrap: wrap;
