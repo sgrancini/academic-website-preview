@@ -1,9 +1,34 @@
 # Content review
 
-| Current source / issue | Treatment in preview | Why review is needed |
-| --- | --- | --- |
-| No professional portrait was found locally | A clearly labelled `SG` placeholder is used | The sole image candidate, `/Users/stefanograncini/Desktop/WORK/Job Market/Bootcamp CEPR Tuscany /Pitigliano, 22 July 2026/IMG_2210.png`, is an iPad photograph, not a headshot. |
-| Google Site lists a long chronological presentation history | Homepage uses three selected, verified summary items; the research page retains selected paper-specific presentations | The new homepage is intentionally optimized for a short job-market review. |
-| The provided one-sentence research identity is not word-for-word on the current site | Used a closely sourced sentence from the Google Site rather than the proposed wording | Confirm the preferred final research-identity sentence before production. |
-| No verified public URLs were found for Davide Furceri or João Duarte in the inspected sources | Names are displayed without links | Add official profile URLs only after verification. |
-| No verified Google Scholar or LinkedIn profile was found | Omitted | Add only confirmed profile URLs. |
+Audit date: 2026-09-02
+
+Authoritative teaching source: `assets/documents/cv_stefano_grancini.pdf` (last updated August 2026). This file is byte-identical (SHA-256 `d1853761aa0bb822c76a16eaa8e1f08083fddcbd3a0ef0bc9741c7e6d5734ef1`) to the canonical CV at `Application_Automation/candidate/canonical_documents/CV.pdf`.
+
+Secondary source: current Google Site teaching page, `https://sites.google.com/view/stefanograncini/teaching`.
+
+## Teaching audit
+
+| Teaching item | Source | Role | Program level | Dates | Included? |
+| --- | --- | --- | --- | --- | --- |
+| Finance and The Transition to the net zero | Canonical CV; Google Site | Grader | MSc / Master's | 2024–2026 | yes |
+| Financial Statement Analysis | Canonical CV; Google Site | Grader | MSc / Master's | 2025 | yes |
+| Empirical Methods for Finance | Canonical CV; Google Site | Grader | MSc / Master's | 2024 | yes |
+| Principles of Macroeconomics | Canonical CV; Google Site | Teaching Assistant | BSc / Bachelor's | 2023 | yes |
+| Intermediate Macroeconomics | Canonical CV; Google Site | Teaching Assistant | BSc / Bachelor's | 2022–2023 | yes |
+| Stata for Finance | Canonical CV; Google Site | Teaching Assistant | MSc / Master's | 2022–2023 | yes |
+| Development Economics | Neither audited source | — | — | — | no |
+
+## Source discrepancies
+
+- The Google Site labels Finance and The Transition to the net zero, Financial Statement Analysis, and Empirical Methods for Finance as “TA.” The newer canonical August 2026 CV labels all three as “Grader.” The preview follows the canonical CV.
+- The Google Site does not provide teaching dates. The preview uses the dates in the canonical CV.
+- The Google Site does not state roles for Principles of Macroeconomics, Intermediate Macroeconomics, or Stata for Finance. The preview uses the roles in the canonical CV.
+- The Google Site uses “Master in Finance”; the canonical CV uses “MSc.” The page renders this as “Master's” for consistent reader-facing terminology.
+- Development Economics does not appear in the current Google Site teaching page or the canonical CV and is therefore not included.
+
+## Preservation scope
+
+- Homepage biography retains NOVA SBE, Pedro Brinca, 2026–2027 job-market status, Princeton and Gianluca Violante, ECB, IMF, and the full requested research-interest list. The former long “I study the role of micro-heterogeneity…” paragraph remains omitted by instruction.
+- Homepage research retains the JMP, ECB Working Paper No. 3106, Paper / ECB WP / SSRN links, the IMF paper and Working Paper No. 2026/076, and Production Networks paper. No homepage abstracts were added.
+- The research page retains all three research entries, abstracts where previously present, and complete previously implemented presentation expanders.
+- All four linked references and the existing portrait are retained.
