@@ -12,6 +12,7 @@ Never change DNS, Namecheap, GitHub Pages custom-domain settings, `jmp.stefanogr
 ## Content locations
 
 - Homepage biography, JMP summary, working papers, references, teaching summary: `index.html`
+- CV highlights, preview, and conference history: `cv/index.html`
 - Complete research portfolio: `research/index.html`
 - Teaching record: `teaching/index.html`
 - Shared visual system: `assets/css/site.css`
