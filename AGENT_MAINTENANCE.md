@@ -4,10 +4,10 @@
 
 - Local repository: `/Users/stefanograncini/Desktop/WORK/Job Market/Website`
 - GitHub repository: `sgrancini/academic-website-preview`
-- GitHub Pages preview: `https://sgrancini.github.io/academic-website-preview/`
-- Production domain is **not** connected.
+- Canonical production URL: `https://www.stefanograncini.com/`
+- GitHub Pages custom domain: `www.stefanograncini.com`
 
-Never change `stefanograncini.com`, DNS, Namecheap, GitHub Pages custom-domain settings, `jmp.stefanograncini.com`, `/Users/stefanograncini/Desktop/WORK/Job Market/job-market-paper`, or its publishing automation without explicit user approval.
+Never change DNS, Namecheap, GitHub Pages custom-domain settings, `jmp.stefanograncini.com`, `/Users/stefanograncini/Desktop/WORK/Job Market/job-market-paper`, or its publishing automation without explicit user approval.
 
 ## Content locations
 

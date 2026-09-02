@@ -1,13 +1,15 @@
-# Future domain migration — do not execute before explicit approval
+# Production domain migration
 
-This preview has **no CNAME file** and no custom-domain setting. `stefanograncini.com` remains served by Google Sites.
+The GitHub-side migration was approved and configured on 2026-09-02. GitHub Pages uses `www.stefanograncini.com` as the custom domain and created the repository-root `CNAME` file. Namecheap DNS has not yet been changed; `www.stefanograncini.com` therefore remains pointed at Google until the separately approved DNS handoff.
+
+`jmp.stefanograncini.com`, the job-market-paper repository and workflow, email/MX records, and Search Console TXT verification records are outside this migration and must remain unchanged.
 
 ## Pre-flight
 
-1. Record all current Namecheap DNS records (A, AAAA, CNAME, TXT, MX, and any Google-site verification record) and take screenshots.
-2. Confirm the GitHub Pages preview renders correctly and replace the portrait placeholder.
-3. Update the production base URL in `robots.txt`, `sitemap.xml`, JSON-LD, and add canonical tags pointing to `https://www.stefanograncini.com/`.
-4. In GitHub repository Settings → Pages, set the custom domain to `www.stefanograncini.com`; only then follow GitHub’s DNS instructions exactly. Do not alter `jmp.stefanograncini.com`.
+1. Record the current DNS records before any DNS handoff.
+2. Confirm the GitHub Pages preview and all production-root paths render correctly.
+3. Confirm `robots.txt`, `sitemap.xml`, JSON-LD, Open Graph URLs, and per-page canonical tags use `https://www.stefanograncini.com/`.
+4. Confirm GitHub Pages reports `www.stefanograncini.com` as the custom domain before changing DNS. Do not alter `jmp.stefanograncini.com`.
 
 ## DNS and HTTPS
 
