@@ -122,11 +122,17 @@ a:focus-visible {
 .intro {
   max-width: 810px;
   margin-bottom: 42px;
-  font-size: 17px;
-  line-height: 1.58;
+  font-size: 16px;
+  line-height: 1.65;
 }
 
 .intro p { margin: 0 0 15px; }
+
+.welcome-title {
+  margin: 0 0 17px;
+  color: var(--heading);
+  font: 700 25px/1.2 var(--serif);
+}
 
 .market {
   max-width: 760px;
@@ -165,8 +171,8 @@ a:focus-visible {
 }
 
 .paper {
-  margin: 0 0 33px;
-  padding: 21px 0 31px;
+  margin: 0 0 22px;
+  padding: 19px 0 21px;
   border-top: 1px solid var(--line);
 }
 
@@ -176,7 +182,7 @@ a:focus-visible {
 .teaching-entry h2 {
   margin: 0 0 7px;
   color: var(--heading);
-  font: 700 24px/1.25 var(--serif);
+  font: 700 22px/1.28 var(--serif);
 }
 
 .meta,
@@ -184,7 +190,7 @@ a:focus-visible {
 .presentations {
   margin: 3px 0;
   color: var(--muted);
-  font-size: 15px;
+  font: 15px/1.5 var(--sans);
 }
 
 .abstract {
@@ -208,45 +214,40 @@ summary {
   cursor: pointer;
 }
 
-.section-title {
-  margin: 45px 0 17px;
+.page-title {
+  margin: 0 0 17px;
+  color: var(--heading);
+  font: 700 30px/1.2 var(--serif);
+}
+
+.references-title {
+  margin: 44px 0 17px;
   color: var(--heading);
   font: 700 25px/1.2 var(--serif);
 }
 
-.page-title { margin-top: 0; font-size: 32px; }
-
 .refs {
   max-width: 680px;
-  columns: 2;
-  column-gap: 32px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 36px;
+  row-gap: 8px;
 }
 
 .refs p {
-  break-inside: avoid;
-  margin: 0 0 8px;
+  margin: 0;
 }
 
-.teaching-preview {
-  max-width: 700px;
-  margin-top: 46px;
-  padding-top: 1px;
-  border-top: 1px solid var(--line);
-}
-
-.teaching-preview .section-title { margin-top: 28px; }
-.teaching-preview p { margin: 0 0 10px; }
-.arrow-link { font-family: var(--sans); font-weight: 650; text-decoration: none; }
-.arrow-link:hover { text-decoration: underline; }
+.ref-name { font-weight: 700; }
+.ref-affiliation { color: var(--muted); font: 14px var(--sans); }
 .contact { margin: 34px 0 0; font-family: var(--sans); }
 
 .page-heading {
   margin-bottom: 32px;
 }
 
-.page-heading .section-title {
+.page-heading .page-title {
   margin: 0 0 8px;
-  font-size: 32px;
 }
 
 .page-heading p {
@@ -255,7 +256,8 @@ summary {
   font-family: var(--sans);
 }
 
-.teaching-list { max-width: 760px; }
+.teaching-list,
+.discussion-list { max-width: 760px; }
 
 .teaching-entry {
   padding: 20px 0 22px;
@@ -266,17 +268,16 @@ summary {
 
 .teaching-entry h2 { font-size: 21px; }
 
-.teaching-entry p {
+.teaching-entry p,
+.discussion-author {
   margin: 0;
   color: var(--muted);
   font: 15px/1.5 var(--sans);
 }
 
-.error-page h1 {
-  margin: 0 0 12px;
-  color: var(--heading);
-  font-size: 34px;
-}
+.discussion-list .paper { margin-bottom: 0; }
+
+.error-page .page-title { margin-bottom: 12px; }
 
 footer {
   margin-top: 45px;
@@ -315,15 +316,13 @@ footer {
   }
 
   .content { padding: 40px 28px; }
-  .intro { font-size: 17px; }
-  .paper h2 { font-size: 22px; }
-  .refs { columns: 1; }
+  .refs { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 420px) {
   .rail { padding: 24px; }
   .content { padding: 34px 24px 40px; }
   .name { font-size: 29px; }
-  .section-title, .page-heading .section-title, .page-title { font-size: 28px; }
+  .page-title { font-size: 28px; }
   .market { margin-left: -4px; }
 }

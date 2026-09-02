@@ -28,7 +28,8 @@ Secondary source: current Google Site teaching page, `https://sites.google.com/v
 
 ## Preservation scope
 
-- Homepage biography retains NOVA SBE, Pedro Brinca, 2026–2027 job-market status, Princeton and Gianluca Violante, ECB, IMF, and the full requested research-interest list. The former long “I study the role of micro-heterogeneity…” paragraph remains omitted by instruction.
+- Homepage biography uses the requested short version with linked NOVA SBE, Princeton University, Gianluca Violante, ECB, IMF Fund Internship Program, and IMF references. Pedro Brinca, Inequality, and Wealth Distribution were removed from the homepage introduction by instruction.
 - Homepage research retains the JMP, ECB Working Paper No. 3106, Paper / ECB WP / SSRN links, the IMF paper and Working Paper No. 2026/076, and Production Networks paper. No homepage abstracts were added.
 - The research page retains all three research entries, abstracts where previously present, and complete previously implemented presentation expanders.
-- All four linked references and the existing portrait are retained.
+- All four linked references and the existing portrait are retained. The homepage Teaching body section was removed by instruction; the complete Teaching page remains.
+- The Discussions page reproduces the two titles, authors, and Paper / Discussion links from the current Google Discussions page without added summaries.
