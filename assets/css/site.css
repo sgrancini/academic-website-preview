@@ -83,18 +83,11 @@ a:focus-visible {
   line-height: 1.45;
 }
 
-.cv {
-  display: inline-block;
-  margin: 19px 0 13px;
-  color: var(--link);
-  font: 700 14px var(--sans);
-}
-
 .profiles {
   display: flex;
   flex-wrap: wrap;
   gap: 7px;
-  margin: 0 0 24px;
+  margin: 19px 0 24px;
   font: 600 12px/1.2 var(--sans);
 }
 
@@ -223,7 +216,10 @@ a:focus-visible {
   border-top: 1px solid var(--line);
 }
 
-.abstract p { margin: 0 0 14px; }
+.abstract p {
+  margin: 0;
+  text-indent: 0;
+}
 
 details {
   margin-top: 15px;
