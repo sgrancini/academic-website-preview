@@ -152,7 +152,7 @@ a:focus-visible {
 
 .intro .market {
   max-width: 760px;
-  margin-top: 20px;
+  margin-top: 36px;
   padding: 9px 14px 9px 16px;
   background: var(--highlight);
   border-left: 3px solid var(--link);
