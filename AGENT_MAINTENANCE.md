@@ -29,6 +29,8 @@ When replacing `assets/documents/cv_stefano_grancini.pdf`, regenerate its first-
 
 For a presentation or paper update, change the relevant page(s), preserve the existing plain-paper structure, validate internal links and render desktop/mobile screenshots. For a CV replacement, replace only `assets/documents/cv_stefano_grancini.pdf` after checking it is the approved canonical CV. For a portrait replacement, add the approved image under `assets/images/`, replace the `SG` placeholder with an `<img>` bearing descriptive alt text, and optimize it.
 
+Whenever `assets/css/site.css` is materially changed in a production deployment, update the stylesheet URL's cache-busting version parameter on every HTML page to the new short commit SHA or another monotonically changing version. This prevents stale browser CSS after deployment.
+
 ## Validate and deploy
 
 1. Run a local server: `python3 -m http.server 8017 --directory .`
