@@ -16,10 +16,16 @@ Never change DNS, Namecheap, GitHub Pages custom-domain settings, `jmp.stefanogr
 - Complete research portfolio: `research/index.html`
 - Teaching record: `teaching/index.html`
 - Shared visual system: `assets/css/site.css`
-- Current website CV: `assets/documents/cv_stefano_grancini.pdf`
+- Authoritative CV URL (what every CV link on the site uses): `https://sgrancini.github.io/cv/cv.pdf`
+- Local synchronized CV copy (input for the preview image only): `assets/documents/cv_stefano_grancini.pdf`
 - Content ambiguities: `CONTENT_REVIEW.md`
 
-Use verified source materials before changing research facts. Keep the JMP hyperlink exactly `https://jmp.stefanograncini.com/paper.pdf`.
+Use verified source materials before changing research facts. Keep the JMP hyperlink exactly `https://jmp.stefanograncini.com/paper.pdf` and every CV hyperlink exactly `https://sgrancini.github.io/cv/cv.pdf`.
+
+## CV updates are automated
+
+The CV is published by `/Users/stefanograncini/Desktop/WORK/Job Market/Publish CV.command` (logic and documentation in `Job Market/.cv-publisher/`). After it has verified that `https://sgrancini.github.io/cv/cv.pdf` serves the approved PDF, it replaces `assets/documents/cv_stefano_grancini.pdf` with that exact PDF, regenerates `assets/images/cv-preview.png` with the command below, and commits and pushes only those two files. Do not replace them by hand. The publisher refuses to run while this repository has other uncommitted changes or unpushed commits, so commit and push unrelated work first.
+
 
 When replacing `assets/documents/cv_stefano_grancini.pdf`, regenerate its first-page preview from the same approved PDF:
 
@@ -27,7 +33,7 @@ When replacing `assets/documents/cv_stefano_grancini.pdf`, regenerate its first-
 
 ## Routine updates
 
-For a presentation or paper update, change the relevant page(s), preserve the existing plain-paper structure, validate internal links and render desktop/mobile screenshots. For a CV replacement, replace only `assets/documents/cv_stefano_grancini.pdf` after checking it is the approved canonical CV. For a portrait replacement, add the approved image under `assets/images/`, replace the `SG` placeholder with an `<img>` bearing descriptive alt text, and optimize it.
+For a presentation or paper update, change the relevant page(s), preserve the existing plain-paper structure, validate internal links and render desktop/mobile screenshots. For a CV replacement, use `Publish CV.command`; do not replace `assets/documents/cv_stefano_grancini.pdf` manually. For a portrait replacement, add the approved image under `assets/images/`, replace the `SG` placeholder with an `<img>` bearing descriptive alt text, and optimize it.
 
 Whenever `assets/css/site.css` is materially changed in a production deployment, update the stylesheet URL's cache-busting version parameter on every HTML page to the new short commit SHA or another monotonically changing version. This prevents stale browser CSS after deployment.
 
