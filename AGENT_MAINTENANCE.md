@@ -24,7 +24,7 @@ Use verified source materials before changing research facts. Keep the JMP hyper
 
 ## CV updates are automated
 
-The CV is published by `/Users/stefanograncini/Desktop/WORK/Job Market/Publish CV.command` (logic and documentation in `Job Market/.cv-publisher/`). After it has verified that `https://sgrancini.github.io/cv/cv.pdf` serves the approved PDF, it replaces `assets/documents/cv_stefano_grancini.pdf` with that exact PDF, regenerates `assets/images/cv-preview.png` with the command below, and commits and pushes only those two files. Do not replace them by hand. The publisher refuses to run while this repository has other uncommitted changes or unpushed commits, so commit and push unrelated work first.
+The CV is published by `/Users/stefanograncini/Desktop/WORK/Job Market/cv/Publish CV.command` (logic and documentation in `Job Market/.cv-publisher/`). After it has verified that `https://sgrancini.github.io/cv/cv.pdf` serves the approved PDF, it replaces `assets/documents/cv_stefano_grancini.pdf` with that exact PDF, regenerates `assets/images/cv-preview.png` with the command below, and commits and pushes only those two files. Do not replace them by hand. The publisher refuses to run while this repository has other uncommitted changes or unpushed commits, so commit and push unrelated work first.
 
 
 When replacing `assets/documents/cv_stefano_grancini.pdf`, regenerate its first-page preview from the same approved PDF:
