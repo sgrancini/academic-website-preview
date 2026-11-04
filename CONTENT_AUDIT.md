@@ -8,7 +8,7 @@ Audit updated: 2026-09-02
 | Princeton / Gianluca Violante, ECB, IMF | concise linked introduction | — | — | — | preserved in requested short form |
 | Research interests | requested short list | — | — | — | updated by instruction |
 | Public Debt, iMPCs & Fiscal Policy Transmission | title, status, Paper / ECB WP / SSRN | full abstract and presentations | — | — | preserved |
-| Welfare Analysis of Income-Stabilization Policies in a HANK Model with Unemployment Risk | title, coauthors, status, Paper / IMF WP | full abstract and presentations | — | — | preserved |
+| Welfare Effects of Income-Stabilization Policies in a HANK Model with Unemployment Risk (Submitted) | title, coauthors, status, Paper / IMF WP | full abstract and presentations | — | — | preserved |
 | Production Networks and the Wealth Distribution | title, coauthors, status | presentations | — | — | preserved |
 | References | all four names, compact affiliations, and links | — | — | — | preserved |
 | Complete teaching record | no homepage body section | — | six individually listed assignments | — | preserved on Teaching page |

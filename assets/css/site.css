@@ -224,6 +224,12 @@ a:focus-visible {
   text-decoration-color: #91b9d3;
 }
 
+.paper-status {
+  color: var(--muted);
+  font: italic 400 16px/1.28 var(--sans);
+  white-space: nowrap;
+}
+
 .meta,
 .coauthors,
 .presentations {
